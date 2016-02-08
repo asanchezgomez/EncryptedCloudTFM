@@ -9,7 +9,7 @@ var quizController = require('../controllers/quiz_controller');
 //We show index view, and title atribute
 //with value = Express when route is /
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Quiz' });
+  res.render('index', { title: 'Express' });
 });
 
 // When route is GET /quizes/question, we call quizController.question function
